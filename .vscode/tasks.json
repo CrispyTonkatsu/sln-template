@@ -17,14 +17,14 @@
       "label": "Build (Debug)",
       "type": "shell",
       "windows": {
-        "command": "powershell -wd . -NoLogo -file \".vscode\\build_sln.ps1\" -release false"
+        "command": "powershell -wd . -NoLogo -file \".vscode\\build-sln.ps1\""
       }
     },
     {
       "label": "Build (Release)",
       "type": "shell",
       "windows": {
-        "command": "powershell -wd . -NoLogo -file \".vscode\\build_sln.ps1\" -release true"
+        "command": "powershell -wd . -NoLogo -file \".vscode\\build-sln.ps1\" -release"
       }
     },
     {
