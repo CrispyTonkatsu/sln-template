@@ -11,3 +11,4 @@ if($release){
 	msbuild -warnaserror -p:Configuration=Debug
 }
 
+exit $LASTEXITCODE
